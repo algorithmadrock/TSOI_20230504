@@ -15,7 +15,7 @@ import java.io.InputStreamReader;
 public class Controller {
 	
 	public static void fruta() throws IOException {
-		File arquivo = new File("C:\\sistemas operacionais i\\generic_food.csv");
+		File arquivo = new File("C:\\sistemas operacionais i\\TSOI_20230504_GenericFood\\generic_food.csv");
 		
 		FileInputStream fluxo = new FileInputStream(arquivo);
 		InputStreamReader leitor = new InputStreamReader(fluxo);
